@@ -63,8 +63,10 @@ color: var(--primary-text-color);
 .show-section{
     display: block;
 }
+
 .bottom-border-show{
     border-bottom: 2px solid black;
+    
 }
 .bottom-border-hide{
     border-bottom: 0px solid black;
@@ -76,4 +78,17 @@ color: var(--primary-text-color);
     height: 90vh;
 }
 /* Hero Login Section Ends */
+
 /* navbar css Ends */
+.e-filling-section{
+    background-image: url('/images/image 3.png'); /* Replace 'path_to_your_image.jpg' with the actual path of your image */
+    background-size: cover; /* This makes sure the image covers the entire container */
+    background-position: center; /* Center the background image */
+    width: 100%; /* Set the width of the container */
+    height: 400px; 
+}
+/* Footer CSS starts  */
+.footer{
+    background-color: var(--primary-bg-color);
+}
+/* Footer CSS Ends  */
