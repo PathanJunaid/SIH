@@ -11,12 +11,50 @@
     <!-- google icons  -->
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-        <!-- external Css  -->
+    <!-- external Css  -->
     <link rel="stylesheet" href="CSS/index.css">
     <title>SIH</title>
 </head>
 
 <body>
+    <!-- sign Up Modal  -->
+    <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered z-index-5 ">
+            <div class="modal-content signup-modal">
+                <div class="modal-body">
+                    <h1 class="modal-title text-white text-center my-4 fs-24px" id="exampleModalLabel">Sign Up</h1>
+                    <form action="" class="form-control border-0 signup-modal">
+                        <input type="text" class="form-control input-bg-secondary border-0 my-3" placeholder="Email/Mobile">
+                        <input type="text" class="form-control input-bg-secondary border-0 my-3" placeholder="Password">
+                        <button type="submit" class="form-control">Submit</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <p class="float-end text-white">Need Assistance</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- sign up Modal Ends  -->
+    <!-- Client Login Modal starts  -->
+    <div class="modal" id="exampleModalC" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered z-index-5 ">
+            <div class="modal-content signup-modal">
+                <div class="modal-body">
+                    <h1 class="modal-title text-white text-center my-4 fs-24px" id="exampleModalLabel">Sign Up</h1>
+                    <form action="" class="form-control border-0 signup-modal">
+                        <input type="text" class="form-control input-bg-secondary border-0 my-3" placeholder="Email/Mobile">
+                        <input type="text" class="form-control input-bg-secondary border-0 my-3" placeholder="Password">
+                        <button type="submit" class="form-control">Submit</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <p class="float-end text-white">Need Assistance</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Client Login Modal Ends -->
     <!-- Navbar Started  -->
     <nav class="navbar sticky-top navbar-expand-lg navbar-bg-color px-4 py-3">
         <div class="container-fluid">
@@ -29,26 +67,34 @@
             <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link text-color-white" aria-current="page" href="#">Home</a>
+                        <a class="nav-link fs-20px text-color-white" aria-current="page">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-color-white" href="#">About</a>
+                        <a class="nav-link fs-20px text-color-white">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-color-white">Help</a>
+                        <a class="nav-link fs-20px text-color-white">Help</a>
                     </li>
                 </ul>
 
                 <ul class="navbar-nav mb-2 mb-lg-0 float-end">
 
                     <li class="nav-item">
-                        <a class="nav-link text-color-white">Language</a>
+                        <a class="nav-link fs-20px text-color-white">Language</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-color-white" href="#">Services</a>
+                        <a class="nav-link fs-20px text-color-white">Services</a>
                     </li>
-                    <button class="btn-login rounded-pill px-4 text-color-white border-0" type="submit">Login</button>
-                    <button class="btn-signup rounded-pill px-4 bg-white border-0 mx-2" type="submit">Sign up</button>
+                    <button class="btn-login rounded-pill px-4 text-color-white border-0 fs-20px"
+                        type="submit">Login</button>
+
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn-signup rounded-pill px-4 bg-white border-0 mx-2 fs-20px"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Sign up
+                    </button>
+
                 </ul>
             </div>
         </div>
@@ -320,7 +366,7 @@
     <!-- Hero Section Ended -->
 
     <!-- E-fiiling Benefit Section Starts  -->
-    <div class="container-fluid mb-5 e-filling-section">
+    <div class="container-fluid mb-5 e-filling-section" style="background-image: url('images/image\ 3.png');">
         <div class="container">
             <h1 class="text-center my-5">E-Filling benefits</h1>
             <ul>
@@ -651,7 +697,7 @@
                 <img src="images/app-store.png" alt="" class="img-fluid mx-5">
             </div>
         </div>
-        
+
         <!-- Grid container -->
     </footer>
     <!-- Footer -->

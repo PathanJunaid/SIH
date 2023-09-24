@@ -36,6 +36,18 @@ color: var(--primary-text-color);
 .hover-input:active{
     background-color: var(--secondary-color);
 }
+.fs-16px{
+    font-size: 16px;
+}
+.fs-20px{
+    font-size: 20px;
+}
+.fs-22px{
+    font-size: 22px;
+}
+.fs-24px{
+    font-size: 24px;
+}
 /* Common Color Classes Ends */
 /* navbar css Starts  */
 .navbar-bg-color{
@@ -81,11 +93,19 @@ color: var(--primary-text-color);
 
 /* navbar css Ends */
 .e-filling-section{
-    background-image: url('/images/image 3.png'); /* Replace 'path_to_your_image.jpg' with the actual path of your image */
     background-size: cover; /* This makes sure the image covers the entire container */
     background-position: center; /* Center the background image */
     width: 100%; /* Set the width of the container */
     height: 400px; 
+}
+.z-index-5{
+    z-index: 5;
+}
+.signup-modal{
+    background-color: var(--primary-bg-color) !important;
+}
+.input-bg-secondary{
+    background-color: var(--secondary-color);
 }
 /* Footer CSS starts  */
 .footer{
