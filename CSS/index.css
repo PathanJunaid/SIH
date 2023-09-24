@@ -48,6 +48,9 @@ color: var(--primary-text-color) !important;
 .fs-24px{
     font-size: 24px;
 }
+.fw-300{
+    font-weight: 500;
+}
 /* Common Color Classes Ends */
 /* navbar css Starts  */
 .dropdown-width{
@@ -85,7 +88,8 @@ color: var(--primary-text-color) !important;
 }
 
 .bottom-border-show{
-    border-bottom: 2px solid black;
+    border-bottom: 4px solid black;
+    
     
 }
 .bottom-border-hide{
