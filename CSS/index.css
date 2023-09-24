@@ -16,7 +16,7 @@
 }
 /* Common Color Classes Starts */
 .text-color-white{
-color: var(--primary-text-color);
+color: var(--primary-text-color) !important;
 }
 .bg-color-secondary-1{
     background-color: var(--secondary-color-2);
@@ -50,6 +50,14 @@ color: var(--primary-text-color);
 }
 /* Common Color Classes Ends */
 /* navbar css Starts  */
+.dropdown-width{
+    width: 250px;
+    top: 120% !important;
+}
+.dropdown-width-login{
+    width: 200px;
+    top: 120% !important;
+}
 .navbar-bg-color{
     background-color: var(--primary-bg-color);
 }
@@ -107,6 +115,7 @@ color: var(--primary-text-color);
 .input-bg-secondary{
     background-color: var(--secondary-color);
 }
+
 /* Footer CSS starts  */
 .footer{
     background-color: var(--primary-bg-color);
