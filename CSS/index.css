@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+
+}
+:root{
+    --primary-bg-color : #000000;
+    --secondary-color : #4D4D4D;
+    --secondary-color-2 : #666666;
+    --secondary-color-3 : #808080;
+    --secondary-color-4 : #999999;
+    --secondary-color-5 : #B3B3B3;
+    --secondary-color-6 : #CCCCCC;
+    --secondary-color-7 : #e6e6e6;
+    --primary-text-color: #FFFFFF;
+}
+/* Common Color Classes Starts */
+.text-color-white{
+color: var(--primary-text-color);
+}
+.bg-color-secondary-1{
+    background-color: var(--secondary-color-2);
+}
+.text-color-white:hover{
+    color: var(--primary-text-color);
+}
+/* Common Color Classes Ends */
+/* navbar css Starts  */
+.navbar-bg-color{
+    background-color: var(--primary-bg-color);
+}
+.btn-login{
+    background-color: var(--primary-bg-color);
+}
+.btn-login:hover{
+    background-color: var(--secondary-color-3);
+}
+/* navbar css Ends */
