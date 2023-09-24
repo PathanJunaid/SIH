@@ -10,8 +10,8 @@
     --secondary-color-3 : #808080;
     --secondary-color-4 : #999999;
     --secondary-color-5 : #B3B3B3;
-    --secondary-color-6 : #CCCCCC;
-    --secondary-color-7 : #e6e6e6;
+    --secondary-color-6 : #cacaca;
+    --secondary-color-7 : #e4e2e2;
     --primary-text-color: #FFFFFF;
 }
 /* Common Color Classes Starts */
@@ -24,6 +24,18 @@ color: var(--primary-text-color);
 .text-color-white:hover{
     color: var(--primary-text-color);
 }
+.bg-color-7{
+    background-color: var(--secondary-color-7);
+}
+.bg-color-white{
+    background-color: var(--primary-text-color);
+}
+.bg-color-secondary{
+    background-color: var(--secondary-color);
+}
+.hover-input:active{
+    background-color: var(--secondary-color);
+}
 /* Common Color Classes Ends */
 /* navbar css Starts  */
 .navbar-bg-color{
@@ -32,7 +44,36 @@ color: var(--primary-text-color);
 .btn-login{
     background-color: var(--primary-bg-color);
 }
+/* Hero Login Section Starts */
+
 .btn-login:hover{
     background-color: var(--secondary-color-3);
 }
+
+.form-position{
+    top: 5%;
+    left: 5%;
+}
+#chatbox{
+    background-color: var(--secondary-color-6);
+}
+.hide-section{
+    display: none;
+}
+.show-section{
+    display: block;
+}
+.bottom-border-show{
+    border-bottom: 2px solid black;
+}
+.bottom-border-hide{
+    border-bottom: 0px solid black;
+}
+.images{
+    height: 90vh;
+}
+.vh-90{
+    height: 90vh;
+}
+/* Hero Login Section Ends */
 /* navbar css Ends */
